@@ -1,0 +1,311 @@
+*{
+	padding:0px;
+	margin:0px;
+	margin-top:0px;
+}
+div *{
+	font-family: "Sarabun", sans-serif;
+}
+.toppig{
+	display: flex;
+	justify-content: space-between;
+}
+.toppig a{
+	text-decoration: none;
+	color: red;
+	font-size: 20px;	
+}
+.katha{
+	display: flex;
+	justify-content: space-between;
+}
+.credit{
+	margin-top:2rem;
+}
+.credit a{
+	text-decoration: none;
+	color: red;
+	font-size: 20px;	
+}
+nav{
+    background: #000000;
+}   
+.nav-con{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+	padding: 0.5rem;
+}
+
+.nav-con img {
+    width: 95px;
+    border-radius: 50%;
+    object-fit:fill;
+}
+/***end selction**/
+
+/***Menu selction**/
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  border-radius: 10px;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #000000;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  	color: white;
+  	padding: 12px 16px;
+  	text-decoration: none;
+  	display: block;
+	font-size: 25px;
+	border-radius: 5rem;
+}
+
+.dropdown-content a:hover {background-color: darkgray;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: darkgray;}
+
+ul.menu{
+    display: flex;
+    list-style: none;
+	justify-content: space-between;	
+}
+.menu li{
+	margin-left: 25px;
+	margin-right: 30px;
+}
+ul.menu li a{
+    display: flex;
+	align-items: center;
+	justify-content: space-between;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 25px;
+}
+.dropbtn {
+  color: white;
+  font-size: 25px;
+}
+img{
+	max-width: 100%;
+	width: 300;
+	height: auto;
+	object-fit: cover;
+}
+
+.main{
+	margin-left: 12rem;
+	margin-right: 12rem;
+	font-family: "Sarabun", sans-serif;
+}
+.main.container{
+	justify-content: center;
+	align-items: center;
+	border: 1px red solid;
+}
+.wat-title h1{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #968631;
+	margin-top:5rem;
+	margin-bottom: 3rem;
+	
+}
+.wat-title p{
+	display: flex;
+	justify-content: center;
+	font-size: 20px;
+	font-weight:bold;
+	margin-top: 1rem;
+}
+.wat-img {
+	display: flex;
+	justify-content: center;
+	border-radius: 20px;
+	background-color:#fff;
+}
+.wat-img img{
+	border-radius: 20px;
+	box-shadow: 0 0 25px;
+	margin: 1rem 0;
+}
+.title p{
+	display: flex;
+	font-size: 20px;
+	justify-content: center;
+}
+h3{
+	display: flex;
+	justify-content: center;
+	margin-top: 7rem;
+	font: bold;
+	font-size: 30px;
+	color: #BF972D;
+	margin-bottom: 1rem;
+	font-family: "Sarabun", sans-serif;
+}
+.wat-info p{
+	font-size: 20px;
+	text-align: start;
+	padding-top:1rem;
+}
+.info-img{
+	display: flex;
+	justify-content: center;
+	margin-top: 15px;
+	border-radius: 15px;
+	border: 10px black solid;
+	object-fit: fill;
+	background-color:#D2B67C;
+	padding: 5rem 0;
+}
+.info-img img{
+	border-radius: 15px;
+}
+.buttom{
+	
+}
+.but-con{
+	
+}
+p{
+	padding:10px 0px;
+}
+.but-con p{
+	font-size: 20px;
+	margin-top:2rem;	
+}
+.katha .ul li{
+	
+}
+h2{
+	font-family: "Sarabun", sans-serif;
+	color: black;
+	margin-top:3rem;
+}
+.ul li{
+	font-size:20px;
+	padding:8px 0px;
+}
+.text1 li{
+	font-size: 18px;
+}
+.katha.ul{
+	margin: 2rem;
+}
+.katha .ul li{
+	line-height:2rem;
+	font-size: 18px;
+}.toppig.ul{
+	margin: 2rem;
+}
+.toppig .ul li{
+	line-height:2rem;
+	font-size: 18px;
+}
+.roadtrip.ul{
+	margin: 2rem;
+}
+.roadtrip .ul li{
+	line-height:2rem;
+	font-size: 18px;
+}.conntract.ul{
+	margin: 2rem;
+}
+.conntract .ul li{
+	line-height:2rem;
+	font-size: 18px;
+}
+
+.container10{
+	display: flex;
+	justify-content: center;
+	height: 500px;
+	align-items: center;
+}
+.conntract .ul{
+	border:none;
+	justify-content: center;
+	align-items: center;
+	margin-left:10rem;
+	margin-top:5rem;
+	padding: 20px;
+	
+}
+.footer-container{
+	background: #424242;
+	margin-top:2rem;
+	padding: 70px 30px 20px;
+	height: 145px;
+}
+.socail-icon{
+	display: flex;
+	justify-content: center;
+}
+.socail-icon a{
+	text-decoration: none;
+	padding:10px;
+	background: white;
+	margin: 10px;
+	border-radius: 50%;
+}
+.socail-icon a i{
+	font-size: 2rem;
+	color: black;
+	opacity: 0.9;
+}
+/*hover effect on socail icon*/
+.socail-icon a:hover{
+	background:#9F9999;
+	transition: 10;
+}
+.footer-nav{
+	margin:30px 0;
+}
+.footer-nav ul{
+	display: flex;
+	justify-content: center;
+}
+.footer-nav ul li {
+	color: white;
+	margin: 20px;
+	text-decoration: none;
+	list-style: none;
+	font-size: 1.3rem;
+	opacity: 0.7;
+	transition: 0.5;
+}
+.footer-nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.footer-nav ul li a:hover{
+	background: red;
+    transition: 0.5;
+}
+.footer-bottom{
+	background: black;
+	padding: 20px;
+	text-align: center;
+	justify-content: center;
+	overflow: hidden;
+}
+.footer-bottom p{
+	color: white;
+}
+.designer{
+	opacity: 0.7;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 400;
+	margin: 0px 5px;
+}

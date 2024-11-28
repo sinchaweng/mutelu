@@ -1,0 +1,89 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+nav{
+	background: #000000;
+}
+.nav-con{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 110px;
+	position: relative;
+}
+
+.menu{
+	display: flex;
+	list-style: none;
+}
+.menu li{
+	margin-left:20px
+}
+.menu li a{
+	color: white;
+	text-decoration: none;
+}
+/*ham-menu*/
+.ham-menu{
+  	display: inline-block;
+  	cursor: pointer;
+	position: absolute;
+	right: 1rem;
+	top: 0.5rem;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+  transform: translate(0, 11px) rotate(-45deg);
+}
+
+/* Fade out the second bar */
+.change .bar2 {opacity: 0;}
+
+/* Rotate last bar */
+.change .bar3 {
+  transform: translate(0, -11px) rotate(45deg);
+}
+
+@media  only screen and (min-width:600px){
+	.ham-menu {
+		display: none;
+	}
+}
+@media  only screen and (max-width:600px){
+	.menu{
+		display:none;
+	}
+	.nav-con{
+		padding: 1rem;
+		height: auto;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.menu {
+		width: 100%;
+	}
+	.menu li{
+		margin: 1rem 0;
+		padding: 1rem 0.3rem;
+		transition: 1s;
+	}	
+	.menu li:hover{
+		background-color:#595455;
+	}
+	.menu-active{
+		display: block;
+	}
+}
+

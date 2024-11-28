@@ -1,0 +1,258 @@
+
+*{
+    margin:0 ;
+    padding: 0;
+}
+
+/***end selction**/
+
+nav{
+    background: #000000;
+}   
+.nav-con{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+	padding: 0.5rem;
+}
+
+.nav-con img {
+    width: 95px;
+    border-radius: 50%;
+    object-fit:fill;
+}
+/***end selction**/
+
+/***Menu selction**/
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  border-radius: 10px;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #000000;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  	color: white;
+  	padding: 12px 16px;
+  	text-decoration: none;
+  	display: block;
+	font-size: 25px;
+	border-radius: 5rem;
+}
+
+.dropdown-content a:hover {background-color: darkgray;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: darkgray;}
+
+ul.menu{
+    display: flex;
+    list-style: none;
+	justify-content: space-between;	
+}
+.menu li{
+	margin-left: 25px;
+	margin-right: 30px;
+}
+ul.menu li a{
+    display: flex;
+	align-items: center;
+	justify-content: space-between;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 25px;
+}
+.dropbtn {
+  color: white;
+  font-size: 25px;
+}
+
+/**nav selection**/
+
+/**ข้อความติดต่อ**/
+.contact-con{
+    height: 450px;
+    align-items: center;
+    justify-content: center;
+	background: #B9A187;padding: 5rem;
+}
+.con-back{
+	background:#E9E5B7 ;
+	padding: 2rem;
+	width: 800px;
+	border-radius: 3rem;
+}
+.contractwe{
+    font-size: 2rem;/**จริงต้องเปิดแท็กแยกแต่ขก.**/
+    margin-left: 1.5rem;
+    background: #B9A187;
+    height: 60px;
+    width: 150px; 
+    align-items: center;
+    display: flex;
+    border-radius: 10px;
+}
+.contracwe-info{
+    font-size: 1.4rem;
+    
+    
+}
+/**Endข้อความติดต่อ**/
+
+/**ชื่อ ฟอร์มชื่อ**/
+.name{
+    margin: 1rem;
+}
+.name p {
+    font-size: 2rem;
+    margin: 0 0.5rem;
+}
+.box-field-name{
+    font-size: 1.6rem;
+    margin: 0 0.5rem;
+    padding: 0.3rem
+}
+.lastname{
+    margin: 1rem;
+}
+.lastname p{
+    font-size: 2rem;
+    margin: 0 0.5rem;
+}
+.box-field-lastname{
+    font-size: 1.6rem;
+    margin: 0 0.5rem;
+    padding: 0.3rem;
+    width: 342px
+}
+/**endชื่อ ฟอร์มชื่อ**/
+
+/**ฟอมร์อีเมล**/
+.email{
+    margin: 1rem;
+}
+.email p{
+    font-size: 2rem;
+    margin: 0 0.5rem;
+}
+.box-field-email{
+    font-size: 1.6rem;
+    margin: 0 0.5rem;
+    padding: 0.3rem;
+    width: 690px
+}
+/**end ฟอมร์อีเมล**/
+
+/**ฟอมร์คอมเมนต์**/
+.comment-con{
+    padding-left:1.5rem;
+}
+.comment{
+   
+}
+.comment-info{
+    
+}
+.box-field-comment{
+  	width: 700px;
+	font-size:25px;
+
+}
+.btn-con{
+    height: 1.6rem;
+    
+}
+.btnbtn-smbtn-primary{
+    font-size: 1.3rem;
+}
+/**endฟอมร์คอมเมนต์**/
+.footer-container{
+	background: #424242;
+	padding: 70px 30px 20px;
+	overflow: hidden;
+	height: 150px;
+}
+.socail-icon{
+	display: flex;
+	justify-content: center;
+}
+.socail-icon a{
+	text-decoration: none;
+	padding:10px;
+	background: white;
+	margin: 10px;
+	border-radius: 50%;
+}
+.socail-icon a i{
+	font-size: 2rem;
+	color: black;
+	opacity: 0.9;
+}
+/*hover effect on socail icon*/
+.socail-icon a:hover{
+	background:#9F9999;
+	transition: 10;
+}
+.footer-nav{
+	margin:30px 0;
+}
+.footer-nav ul{
+	display: flex;
+	justify-content: center;
+}
+.footer-nav ul li {
+	color: white;
+	margin: 20px;
+	text-decoration: none;
+	list-style: none;
+	font-size: 1.3rem;
+	opacity: 0.7;
+	transition: 0.5;
+}
+.footer-nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.footer-nav ul li a:hover{
+	background: red;
+    transition: 0.5;
+}
+.footer-bottom{
+	background: black;
+	padding: 20px;
+	text-align: center;
+	justify-content: center;
+	overflow: hidden;
+}
+.footer-bottom p{
+	color: white;
+}
+.designer{
+	opacity: 0.7;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 400;
+	margin: 0px 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
